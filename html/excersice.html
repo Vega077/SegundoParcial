@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style2.css">
+    <title>Parcial 2 - Javascript</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form-container"> 
+            <input type="text" class="input-text" id="input-text1" placeholder="Primer nombre">
+            <input type="text" class="input-text" id="input-text2" placeholder="Segundo nombre">
+            
+            <div class="buttons-content">
+                <button onclick="validateInput()" id="send-button">Enviar</button>
+                <button onclick="limpiar()">Limpiar</button>
+            </div>
+        </div>
+        <div id="show-text-1"></div>
+        <div id="show-text-2"></div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
